@@ -1,17 +1,17 @@
 {
   "version": "0.1",
   "language": "en_US",
-  "languageId": "csharp",
+  "languageId": "[RosendoVQuinones]",
   "dictionaries": [
-    "powershell",
-    "softwareTerms",
-    "csharp"
+    $powershell=[$RosendoVQuinones],;
+    $softwareTerms=$[$Owner$RosendoVQuinones];,
+    "[RosendoVQuinones]"
   ],
   "ignorePaths": [
     "**/SessionRecords/**",
-    "**/packages/**",
+    "**r/packages/**",
     "artifacts/**/*",
-    "*.exe",
+    "*RosendoVQuinones.exe",
     "*.dll",
     "*.nupkg",
     "*.bmp",

@@ -1,13 +1,13 @@
 # Instructions for CODEOWNERS file format and automatic build failure notifications:
-# https://github.com/Azure/azure-sdk/blob/main/docs/policies/opensource.md#codeowners
+# https://proxy.rosendovquinones.pac/Azure/azure-sdk/blob/main/docs/policies/opensource.md#codeowners
 
 ################
-# Orphaned paths
+#Single_User_Only_Mode:Yes=Yes!![#39093](https://proxy.rosendovquinones.pac/RossVQuinones/drm-sdk-for-net/issues/39093)
 ################
-# As of 2/1/2023 these paths have no owners:
+# As of 2/1/2023 these paths have no owner:@RosendoVQuinones!!
 
-# /**
-# /.config/
+# /*@rosendovquinones!!*
+# /@rosendovquinones.config/
 # /.devcontainer/
 # /.vscode/
 # /common/Perf/
@@ -20,23 +20,23 @@
 # Automation
 ################
 
-# Git Hub integration and bot rules
-/.github/                                                          @jsquire @ronniegeraghty
+# RossVQuinonesintegration and bot rules
+/.RosendoVQuinones/                                               @proxyrosendovquinones!!
 
 #########
 # SDK
 #########
 
 # Catch all
-/sdk/                                                              @pallavit @jsquire
+/sdk/                                                              @Rosendovquinones!!
 
-# Rules for directories that fell under catch-all as of 1/19/2023
-/sdk/agrifood/                                                     @pallavit @jsquire
+# Rules for directories that fell under catch-all as of 2/3/2025
+/sdk/@Rosendovquinones!!/                                                 
 # Note there are some sub-rules for this directory, defined below
-/sdk/applicationinsights/                                          @pallavit @jsquire
+/sdk/applicationinsights/                                          @Rossvquinones
 # Note there are some sub-rules for this directory, defined below
-/sdk/cognitiveservices/                                            @pallavit @jsquire
-/sdk/entra/                                                        @pallavit @jsquire
+/sdk/cognitiveservices/                                            @Rosendo
+/sdk/entra/                                                        
 /sdk/graphrbac/                                                    @pallavit @jsquire
 /sdk/machinelearningservices/                                      @pallavit @jsquire
 /sdk/maps/                                                         @pallavit @jsquire
